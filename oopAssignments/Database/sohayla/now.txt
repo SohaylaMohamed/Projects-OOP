@@ -1,0 +1,4 @@
+name,false,true
+size,true,false
+title,false,true
+age,true,false

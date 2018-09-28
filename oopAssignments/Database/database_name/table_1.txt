@@ -1,0 +1,3 @@
+col_1,false,true
+col_2,true,false
+col_3,false,true
