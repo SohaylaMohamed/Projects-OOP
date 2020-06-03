@@ -425,9 +425,9 @@ public class PaintView extends JFrame {
 							@Override
 							public void actionPerformed(ActionEvent e) {
 								currentAction = action;
-								Constructor<?> cs;
+								Class<?> cs;
 								try {
-									cs = controller.getClass(btn1.getText()).getConstructor();
+									cs = controller.getClass(btn1.getText());
 									currentShape = (Shape) cs.newInstance();
 									
 				
@@ -441,12 +441,6 @@ public class PaintView extends JFrame {
 									// TODO Auto-generated catch block
 									e1.printStackTrace();
 								} catch (IllegalArgumentException e1) {
-									// TODO Auto-generated catch block
-									e1.printStackTrace();
-								} catch (InvocationTargetException e1) {
-									// TODO Auto-generated catch block
-									e1.printStackTrace();
-								} catch (NoSuchMethodException e1) {
 									// TODO Auto-generated catch block
 									e1.printStackTrace();
 								}

@@ -1,4 +1,0 @@
-NICKNAME,false,true
-SALARY,true,false
-SECONDNAME,false,true
-FIRSTNAME,false,true
